@@ -1,9 +1,53 @@
+/*shared style start here */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
+}
+/* header style start here */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav > ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* banner style start here */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    padding-top: 50px;
+}
+.banner-description{
+    color: #131313;
+    padding: 20px 0;
 }
